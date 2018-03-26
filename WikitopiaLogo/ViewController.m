@@ -7,21 +7,41 @@
 //
 
 #import "ViewController.h"
+#import "MyOpenGLView.h"
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+@synthesize scrollView;
+@synthesize glView;
+@synthesize generateButton;
+@synthesize progIndicator;
+@synthesize messageField;
+
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-
-    // Do any additional setup after loading the view.
+    glView.delegate = self;
+    [[scrollView contentView] scrollToPoint:NSMakePoint(710.0, 365.0)];
+    [scrollView reflectScrolledClipView:[scrollView contentView]];
 }
 
-
-- (void)setRepresentedObject:(id)representedObject {
+- (void)setRepresentedObject:(id)representedObject
+{
     [super setRepresentedObject:representedObject];
-
-    // Update the view, if already loaded.
 }
 
+- (IBAction)generateMovie:(id)sender
+{
+    [generateButton setEnabled:NO];
+    [progIndicator startAnimation:self];
+    [messageField setStringValue:@"Generating Movie..."];
+    [glView generateMovie];
+}
+
+- (void)updateMessage;
+{
+    [progIndicator stopAnimation:self];
+    [messageField setStringValue:@"Done"];
+}
 
 @end

@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF3995402056B820007D9A70 /* Text.vsh in Resources */ = {isa = PBXBuildFile; fileRef = EF39953F2056B820007D9A70 /* Text.vsh */; };
+		EF3995422056B82B007D9A70 /* Text.fsh in Resources */ = {isa = PBXBuildFile; fileRef = EF3995412056B82B007D9A70 /* Text.fsh */; };
+		EF3995522056EC39007D9A70 /* tex3840.tif in Resources */ = {isa = PBXBuildFile; fileRef = EF3995502056EC39007D9A70 /* tex3840.tif */; };
+		EF4255D8205301F100725EB6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4255D7205301F100725EB6 /* AVFoundation.framework */; };
+		EF4255DA2053061800725EB6 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4255D92053061800725EB6 /* CoreVideo.framework */; };
+		EF4255DC20530D0000725EB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4255DB20530D0000725EB6 /* CoreGraphics.framework */; };
 		EFF965FD205212D2000C1A6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF965FC205212D2000C1A6D /* AppDelegate.m */; };
 		EFF96600205212D2000C1A6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF965FF205212D2000C1A6D /* main.m */; };
 		EFF96603205212D2000C1A6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF96602205212D2000C1A6D /* ViewController.m */; };
 		EFF96605205212D2000C1A6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF96604205212D2000C1A6D /* Assets.xcassets */; };
 		EFF96608205212D2000C1A6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF96606205212D2000C1A6D /* Main.storyboard */; };
+		EFF9661120521342000C1A6D /* MyOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF9661020521342000C1A6D /* MyOpenGLView.m */; };
+		EFF9661420521356000C1A6D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF9661320521356000C1A6D /* OpenGL.framework */; };
+		EFF966172052768F000C1A6D /* MyOpenGLFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF966162052768F000C1A6D /* MyOpenGLFunctions.m */; };
+		EFF9661A2052769B000C1A6D /* MyShader.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF966192052769B000C1A6D /* MyShader.m */; };
+		EFF9661C20527C70000C1A6D /* Solid.vsh in Resources */ = {isa = PBXBuildFile; fileRef = EFF9661B20527C70000C1A6D /* Solid.vsh */; };
+		EFF9661E20527C78000C1A6D /* Solid.fsh in Resources */ = {isa = PBXBuildFile; fileRef = EFF9661D20527C78000C1A6D /* Solid.fsh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF39953F2056B820007D9A70 /* Text.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Text.vsh; sourceTree = "<group>"; };
+		EF3995412056B82B007D9A70 /* Text.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Text.fsh; sourceTree = "<group>"; };
+		EF3995502056EC39007D9A70 /* tex3840.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = tex3840.tif; sourceTree = "<group>"; };
+		EF4255D7205301F100725EB6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EF4255D92053061800725EB6 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		EF4255DB20530D0000725EB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		EFF965F8205212D2000C1A6D /* WikitopiaLogo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikitopiaLogo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF965FB205212D2000C1A6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFF965FC205212D2000C1A6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -24,6 +42,15 @@
 		EFF96604205212D2000C1A6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFF96607205212D2000C1A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFF96609205212D2000C1A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFF9660F20521342000C1A6D /* MyOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOpenGLView.h; sourceTree = "<group>"; };
+		EFF9661020521342000C1A6D /* MyOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLView.m; sourceTree = "<group>"; };
+		EFF9661320521356000C1A6D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		EFF966152052768F000C1A6D /* MyOpenGLFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOpenGLFunctions.h; sourceTree = "<group>"; };
+		EFF966162052768F000C1A6D /* MyOpenGLFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLFunctions.m; sourceTree = "<group>"; };
+		EFF966182052769B000C1A6D /* MyShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyShader.h; sourceTree = "<group>"; };
+		EFF966192052769B000C1A6D /* MyShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyShader.m; sourceTree = "<group>"; };
+		EFF9661B20527C70000C1A6D /* Solid.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Solid.vsh; sourceTree = "<group>"; };
+		EFF9661D20527C78000C1A6D /* Solid.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Solid.fsh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +58,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF4255DC20530D0000725EB6 /* CoreGraphics.framework in Frameworks */,
+				EF4255DA2053061800725EB6 /* CoreVideo.framework in Frameworks */,
+				EF4255D8205301F100725EB6 /* AVFoundation.framework in Frameworks */,
+				EFF9661420521356000C1A6D /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +73,7 @@
 			children = (
 				EFF965FA205212D2000C1A6D /* WikitopiaLogo */,
 				EFF965F9205212D2000C1A6D /* Products */,
+				EFF9661220521356000C1A6D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +92,17 @@
 				EFF965FC205212D2000C1A6D /* AppDelegate.m */,
 				EFF96601205212D2000C1A6D /* ViewController.h */,
 				EFF96602205212D2000C1A6D /* ViewController.m */,
+				EFF9660F20521342000C1A6D /* MyOpenGLView.h */,
+				EFF9661020521342000C1A6D /* MyOpenGLView.m */,
+				EFF966152052768F000C1A6D /* MyOpenGLFunctions.h */,
+				EFF966162052768F000C1A6D /* MyOpenGLFunctions.m */,
+				EFF966182052769B000C1A6D /* MyShader.h */,
+				EFF966192052769B000C1A6D /* MyShader.m */,
+				EFF9661B20527C70000C1A6D /* Solid.vsh */,
+				EFF9661D20527C78000C1A6D /* Solid.fsh */,
+				EF39953F2056B820007D9A70 /* Text.vsh */,
+				EF3995412056B82B007D9A70 /* Text.fsh */,
+				EF3995502056EC39007D9A70 /* tex3840.tif */,
 				EFF96604205212D2000C1A6D /* Assets.xcassets */,
 				EFF96606205212D2000C1A6D /* Main.storyboard */,
 				EFF96609205212D2000C1A6D /* Info.plist */,
@@ -74,6 +117,17 @@
 				EFF965FF205212D2000C1A6D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFF9661220521356000C1A6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF4255DB20530D0000725EB6 /* CoreGraphics.framework */,
+				EF4255D92053061800725EB6 /* CoreVideo.framework */,
+				EF4255D7205301F100725EB6 /* AVFoundation.framework */,
+				EFF9661320521356000C1A6D /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +190,11 @@
 			files = (
 				EFF96605205212D2000C1A6D /* Assets.xcassets in Resources */,
 				EFF96608205212D2000C1A6D /* Main.storyboard in Resources */,
+				EF3995522056EC39007D9A70 /* tex3840.tif in Resources */,
+				EF3995422056B82B007D9A70 /* Text.fsh in Resources */,
+				EFF9661C20527C70000C1A6D /* Solid.vsh in Resources */,
+				EFF9661E20527C78000C1A6D /* Solid.fsh in Resources */,
+				EF3995402056B820007D9A70 /* Text.vsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +205,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFF9661A2052769B000C1A6D /* MyShader.m in Sources */,
 				EFF96603205212D2000C1A6D /* ViewController.m in Sources */,
+				EFF966172052768F000C1A6D /* MyOpenGLFunctions.m in Sources */,
 				EFF96600205212D2000C1A6D /* main.m in Sources */,
 				EFF965FD205212D2000C1A6D /* AppDelegate.m in Sources */,
+				EFF9661120521342000C1A6D /* MyOpenGLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +321,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = WikitopiaLogo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -271,6 +334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = WikitopiaLogo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -298,6 +362,7 @@
 				EFF9660E205212D2000C1A6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
