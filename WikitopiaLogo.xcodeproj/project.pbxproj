@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF057E4E24374E2F00845BB7 /* tex3840.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EF057E4D24374E2F00845BB7 /* tex3840.tiff */; };
 		EF3995402056B820007D9A70 /* Text.vsh in Resources */ = {isa = PBXBuildFile; fileRef = EF39953F2056B820007D9A70 /* Text.vsh */; };
 		EF3995422056B82B007D9A70 /* Text.fsh in Resources */ = {isa = PBXBuildFile; fileRef = EF3995412056B82B007D9A70 /* Text.fsh */; };
-		EF3995522056EC39007D9A70 /* tex3840.tif in Resources */ = {isa = PBXBuildFile; fileRef = EF3995502056EC39007D9A70 /* tex3840.tif */; };
 		EF4255D8205301F100725EB6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4255D7205301F100725EB6 /* AVFoundation.framework */; };
 		EF4255DA2053061800725EB6 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4255D92053061800725EB6 /* CoreVideo.framework */; };
 		EF4255DC20530D0000725EB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4255DB20530D0000725EB6 /* CoreGraphics.framework */; };
@@ -27,9 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF057E4D24374E2F00845BB7 /* tex3840.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = tex3840.tiff; sourceTree = "<group>"; };
 		EF39953F2056B820007D9A70 /* Text.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Text.vsh; sourceTree = "<group>"; };
 		EF3995412056B82B007D9A70 /* Text.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Text.fsh; sourceTree = "<group>"; };
-		EF3995502056EC39007D9A70 /* tex3840.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = tex3840.tif; sourceTree = "<group>"; };
 		EF4255D7205301F100725EB6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		EF4255D92053061800725EB6 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		EF4255DB20530D0000725EB6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -102,7 +102,7 @@
 				EFF9661D20527C78000C1A6D /* Solid.fsh */,
 				EF39953F2056B820007D9A70 /* Text.vsh */,
 				EF3995412056B82B007D9A70 /* Text.fsh */,
-				EF3995502056EC39007D9A70 /* tex3840.tif */,
+				EF057E4D24374E2F00845BB7 /* tex3840.tiff */,
 				EFF96604205212D2000C1A6D /* Assets.xcassets */,
 				EFF96606205212D2000C1A6D /* Main.storyboard */,
 				EFF96609205212D2000C1A6D /* Info.plist */,
@@ -170,6 +170,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -190,8 +191,8 @@
 			files = (
 				EFF96605205212D2000C1A6D /* Assets.xcassets in Resources */,
 				EFF96608205212D2000C1A6D /* Main.storyboard in Resources */,
-				EF3995522056EC39007D9A70 /* tex3840.tif in Resources */,
 				EF3995422056B82B007D9A70 /* Text.fsh in Resources */,
+				EF057E4E24374E2F00845BB7 /* tex3840.tiff in Resources */,
 				EFF9661C20527C70000C1A6D /* Solid.vsh in Resources */,
 				EFF9661E20527C78000C1A6D /* Solid.fsh in Resources */,
 				EF3995402056B820007D9A70 /* Text.vsh in Resources */,
