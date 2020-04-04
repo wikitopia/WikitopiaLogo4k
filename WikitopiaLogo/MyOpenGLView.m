@@ -300,7 +300,7 @@ const GLfloat textTexCoords[] = {0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0};
     GLfloat y0 = -0.4;
 
     GLfloat whiteColor[] = {1.0, 1.0, 1.0, 1.0};
-    GLfloat whiteOffset = 0.067427;
+    GLfloat whiteOffset = 0.069864;
 
     //Bricks
     GLfloat mvMat1[16];
